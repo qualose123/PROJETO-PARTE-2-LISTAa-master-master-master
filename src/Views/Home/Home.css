@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&display=swap');
+.container-Details{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    font-family: 'Edu';
+    
+}
+
+.Formularios{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+}
+
+
+.co-containerD{
+    border: 3px solid#C8DE80;
+    border-radius: 20px;
+    height: 400px;
+}
+
+.contentD{
+    height: 147px;
+    width: 250px;
+}
+
+h4{
+    margin: 0;
+}
+.Imagem-home{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+}
+.link-home{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        border-radius: 0px 0 20px 20px;
+        background-color:#DC7578;
+}
+.link-home a {
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    color:#B4001B;
+    background-color: #C8DE80;
+    
+}

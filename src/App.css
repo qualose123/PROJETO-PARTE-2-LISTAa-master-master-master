@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner&family=Rubik+Moonrocks&display=swap');
+
+.App {
+  text-align: center;
+}
+
+h1{
+  font-family:'Rubik Moonrocks' ;
+  font-size: 45px;
+}
