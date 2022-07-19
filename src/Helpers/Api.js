@@ -5,7 +5,7 @@ const tarefaContext = {
   };
   
   const urls = {
-    production: "https://tarefa-rest-api.herokuapp.com/",
+    production: "https://tarefa-rest-api.herokuapp.com",
     development: "http://localhost:8000",
   };
   export const Api = {
