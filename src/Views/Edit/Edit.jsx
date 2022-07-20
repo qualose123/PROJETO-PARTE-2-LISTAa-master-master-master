@@ -1,7 +1,6 @@
 import "./Edit.css";
 import { useState, useEffect } from "react";
-import { Link, useParams } from "react-router-dom";
-import { TarefaServices } from "../../Services/TarefaServices";
+import {  useParams } from "react-router-dom";
 import Formulario from "../../components/Formulario/Formulario";
 import {useNavigate} from 'react-router-dom'
 

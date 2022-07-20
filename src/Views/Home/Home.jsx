@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Formulario from "../../components/Formulario/Formulario";
 import "./Home.css";
 import { TarefaService } from "../../Services/TarefaServices";
+import Edit from "../Edit/Edit";
 
 function Home() {
   //State com a Lista de Tarefas
@@ -193,6 +194,7 @@ function Home() {
                   Detalhes
                 </Link>
               </a>
+              <button><i class="bi bi-pencil-square"></i></button>
               
             </div>
           </div>
