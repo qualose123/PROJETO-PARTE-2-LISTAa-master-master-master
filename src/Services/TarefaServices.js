@@ -14,16 +14,16 @@ export const TarefaService = {
         },
         mode: "cors",
         body: JSON.stringify(tarefa),
-      }).then(parseResponse)
-    // updateById: (id, task_atualizada) =>
-    //   fetch(Api.taskById(id), {
-    //     method: "PUT",
-    //     headers: {
-    //       "Content-Type": "application/json",
-    //     },
-    //     mode: "cors",
-    //     body: JSON.stringify(task_atualizada),
-    //   }).then(parseResponse),
-    // deleteById: (id) =>
-    //   fetch(Api.taskById(id), { method: "DELETE" }).then(parseResponse),
+      }).then(parseResponse),
+    updateById: (id, task_atualizada) =>
+      fetch(Api.taskById(id), {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        mode: "cors",
+        body: JSON.stringify(task_atualizada),
+      }).then(parseResponse),
+    deleteById: (id) =>
+      fetch(Api.taskById(id), { method: "DELETE" }).then(parseResponse),
   };
